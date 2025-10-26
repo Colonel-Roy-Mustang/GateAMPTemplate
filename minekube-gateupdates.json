@@ -15,7 +15,7 @@
         "UpdateStageName": "Moving files",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "CopyFilePath",
-        "UpdateSourceData": "gate_0.57.1_linux_amd64",
+        "UpdateSourceData": "./gate_0.57.1_linux_amd64",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "UpdateSourceConditionSetting": "",
