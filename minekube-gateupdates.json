@@ -16,18 +16,16 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "CopyFilePath",
         "UpdateSourceData": "./gate_0.57.1_linux_amd64",
+        "UpdateSourceArgs": "./serverfiles/gate_0.57.1_linux_amd64",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
-        "UpdateSourceConditionSetting": "",
-        "UpdateSourceConditionValue": "",
-        "DeleteAfterExtract": true,
-        "OneShot": false
+        "SkipOnFailure": false
     },
     {
         "UpdateStageName": "Marking as Executable",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "SetExecutableFlag",
-        "UpdateSourceArgs": "gate_0.57.1_linux_amd64",
+        "UpdateSourceArgs": "./serverfiles/gate_0.57.1_linux_amd64",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
