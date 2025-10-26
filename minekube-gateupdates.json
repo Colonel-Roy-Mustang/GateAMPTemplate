@@ -1,11 +1,33 @@
 [
     {
-        "UpdateStageName": "",
+        "UpdateStageName": "Download from Github",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "GithubRelease",
         "UpdateSourceData": "gate_0.57.1_linux_amd64",
-        "UpdateSourceArgs": "minekube/gate",
-        "UpdateSourceVersion" : "v0.57.1",
+        "UpdateSourceVersion": "v0.57.1",
+        "UpdateSourceArgs": "minekube/gate/releases/download/v0.57.1",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "Moving files",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "CopyFilePath",
+        "UpdateSourceData": "gate_0.57.1_linux_amd64",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "UpdateSourceConditionSetting": "",
+        "UpdateSourceConditionValue": "",
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "Marking as Executable",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "SetExecutableFlag",
+        "UpdateSourceArgs": "gate_0.57.1_linux_amd64",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
