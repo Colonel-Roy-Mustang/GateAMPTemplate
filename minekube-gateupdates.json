@@ -5,7 +5,7 @@
         "UpdateSource": "GithubRelease",
         "UpdateSourceData": "gate_0.57.1_linux_amd64",
         "UpdateSourceVersion": "v0.57.1",
-        "UpdateSourceArgs": "minekube/gate/releases/download/v0.57.1",
+        "UpdateSourceArgs": "minekube/gate",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
